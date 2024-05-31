@@ -22,7 +22,7 @@ public class Main {
             if (i != arrInt.length - 1) System.out.print(", ");
         }
         System.out.println();
-        for (int i = 0; i < arrDouble.length; i++) {
+        for (int i = 0; i < arrIntCustom.length; i++) {
             System.out.print(arrIntCustom[i]);
             if (i != arrInt.length - 1) System.out.print(", ");
         }
