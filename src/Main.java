@@ -8,7 +8,7 @@ public class Main {
         arrInt[0] = 1;
         arrInt[1] = 2;
         arrInt[2] = 3;
-        double[] arrFloat = {1.57,7.654,9.986};
+        double[] arrDouble = {1.57,7.654,9.986};
         int[] arrIntCustom = {4,5,6};
 
         System.out.println("Задача 2");
@@ -17,12 +17,12 @@ public class Main {
             if (i != arrInt.length - 1) System.out.print(", ");
         }
         System.out.println();
-        for (int i = 0; i < arrFloat.length; i++) {
-            System.out.print(arrFloat[i]);
+        for (int i = 0; i < arrDouble.length; i++) {
+            System.out.print(arrDouble[i]);
             if (i != arrInt.length - 1) System.out.print(", ");
         }
         System.out.println();
-        for (int i = 0; i < arrFloat.length; i++) {
+        for (int i = 0; i < arrDouble.length; i++) {
             System.out.print(arrIntCustom[i]);
             if (i != arrInt.length - 1) System.out.print(", ");
         }
@@ -35,7 +35,7 @@ public class Main {
         }
         System.out.println();
         for (int i = 2; i >=0; i--) {
-            System.out.print(arrFloat[i]);
+            System.out.print(arrDouble[i]);
             if (i != 0) System.out.print(", ");
         }
         System.out.println();
