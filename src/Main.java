@@ -19,12 +19,12 @@ public class Main {
         System.out.println();
         for (int i = 0; i < arrDouble.length; i++) {
             System.out.print(arrDouble[i]);
-            if (i != arrInt.length - 1) System.out.print(", ");
+            if (i != arrDouble.length - 1) System.out.print(", ");
         }
         System.out.println();
         for (int i = 0; i < arrIntCustom.length; i++) {
             System.out.print(arrIntCustom[i]);
-            if (i != arrInt.length - 1) System.out.print(", ");
+            if (i != arrIntCustom.length - 1) System.out.print(", ");
         }
         System.out.println();
 
