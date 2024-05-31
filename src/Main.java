@@ -8,8 +8,8 @@ public class Main {
         arrInt[0] = 1;
         arrInt[1] = 2;
         arrInt[2] = 3;
-        double[] arrDouble = {1.57,7.654,9.986};
-        int[] arrIntCustom = {4,5,6};
+        double[] arrDouble = {1.57, 7.654, 9.986};
+        int[] arrIntCustom = {4, 5, 6};
 
         System.out.println("Задача 2");
         for (int i = 0; i < arrInt.length; i++) {
@@ -34,7 +34,7 @@ public class Main {
             if (i != 0) System.out.print(", ");
         }
         System.out.println();
-        for (int i = 2; i >=0; i--) {
+        for (int i = 2; i >= 0; i--) {
             System.out.print(arrDouble[i]);
             if (i != 0) System.out.print(", ");
         }
